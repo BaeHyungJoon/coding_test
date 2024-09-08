@@ -14,6 +14,7 @@ def miss_number(lst):
     #         miss.append(num)
     # return miss
 
+    # 2차 구현
     # set을 사용하면 두 집합 사이의 차이를 쉽게 구할 수 있음.
     total_set = set(range(1, 31))
     submitted_set = set(lst)
