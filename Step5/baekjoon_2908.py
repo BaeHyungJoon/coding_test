@@ -10,6 +10,8 @@ def reverse_big(A, B):
         print(A)
     else:
         print(B)
+    # return max(int(A[::-1]), int(B[::-1]))
+    # 조건문 사용없이 비교 가능
 
 # 입력
 # 첫째 줄에 상근이가 칠판에 적은 두 수 A와 B가 주어진다. 두 수는 같지 않은 세 자리 수이며, 0이 포함되어 있지 않다.
