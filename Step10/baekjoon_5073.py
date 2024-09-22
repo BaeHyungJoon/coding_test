@@ -45,3 +45,33 @@ while True:
 # 각 입력에 맞는 결과 (Equilateral, Isosceles, Scalene, Invalid) 를 출력하시오.
 for output in decision:
     print(output)
+
+
+# def classify_triangle(a, b, c):
+#     sides = [a, b, c]
+#     sides.sort()  # 오름차순 정렬하여 가장 긴 변이 맨 뒤에 오도록 함
+
+#     # 삼각형이 성립하지 않는 경우
+#     if sides[2] >= sides[0] + sides[1]:
+#         return "Invalid"
+    
+#     # 세 변이 모두 같은 경우
+#     if a == b == c:
+#         return "Equilateral"
+    
+#     # 두 변이 같은 경우
+#     if a == b or b == c or a == c:
+#         return "Isosceles"
+    
+#     # 세 변이 모두 다른 경우
+#     return "Scalene"
+
+# while True:
+#     a, b, c = map(int, input().split())
+    
+#     # 종료 조건
+#     if a == 0 and b == 0 and c == 0:
+#         break
+    
+#     # 삼각형 분류 출력
+#     print(classify_triangle(a, b, c))

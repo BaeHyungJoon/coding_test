@@ -26,3 +26,22 @@ point_list = [list(map(int, input().split())) for _ in range(3)]
 # 출력
 # 직사각형의 네 번째 점의 좌표를 출력한다.
 find_fourth_point(point_list)
+
+# 간결화 코드
+# def find_fourth_point(points):
+#     x_coords = [p[0] for p in points]
+#     y_coords = [p[1] for p in points]
+
+#     # x좌표 중 한 번만 등장한 값 찾기
+#     x4 = min(x_coords, key=x_coords.count)
+#     # y좌표 중 한 번만 등장한 값 찾기
+#     y4 = min(y_coords, key=y_coords.count)
+
+#     return x4, y4
+
+# # 입력값
+# points = [tuple(map(int, input().split())) for _ in range(3)]
+
+# # 출력
+# x4, y4 = find_fourth_point(points)
+# print(x4, y4)
